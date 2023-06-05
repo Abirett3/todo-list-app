@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Creator: A.H. Abir (Ashfaque Hossain Abir) -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App - A.H. Abir | Innovating The Web</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/fav_icon.png">
+
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <h1>Welcome to My Todo lists</h1>
+      <h2><span class="hour_num">10</span>:<span class="min_num">30</span><!-- :<span class="sec_num">00</span> -->  <span class="am_pm">AM</span></h2>
+      <!-- <p class="text-p">Developed By A.H. Abir</p> -->
+      <p class="header-time" data-header-time>Saturday, July 2</p>
+    </div>
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="images/bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
